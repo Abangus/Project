@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Gruppo&family=Monoton&family=Rubik+Vinyl&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color:rgb(255, 246, 199); 
+    width: 400px;
+    height: 75vh;
+    margin-top: 180px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.box2 {
+    background-color:rgb(255, 246, 199); 
+    width: 1334px;
+    height: 68vh;
+    margin-top: 80px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.name {
+    font-family: 'Monoton', cursive;
+    font-size: 7vh;
+    width: 50px;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 100px;
+    color: rgb(94, 95, 91);
+}
+
+.box3 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(247, 203, 156);
+    position: absolute;
+    margin-left: 600px;
+}
+
+.shadow {
+    position: absolute;
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+.menu {
+    width: 100px;
+    display: flex;
+    margin-left: 1150px;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(94, 95, 91);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topic {
+    margin-right: 50px;
+}
+
+.discription {
+    position: absolute;
+    font-size: 20px;
+    width: 450px;
+    margin-left: 1020px;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(94, 95, 91);
+}
+
+.first {
+    margin-bottom: 20px;
+}
+
+.box4 {
+    width: 700px;
+    display: flex;
+    margin-left: 800px;
+    margin-top: 570px;
+    color: rgb(94, 95, 91);
+}
+
+.fact {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 55px;
+    font-size: 30px;
+}
+
+
+.maincontainer1{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    background: none;
+    top: 150%;
+    left: 20%;
+    padding-bottom: 50px;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.maincontainer2{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    background: none;
+    top: 150%;
+    left: 50%;
+    padding-bottom: 50px;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.maincontainer3{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    background: none;
+    top: 150%;
+    left: 80%;
+    padding-bottom: 50px;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.card{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+  }
+
+  .card:hover{
+    transform: rotateY(180deg);
+  }
+
+  .front1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    color: #000;
+    background-image: url(back.jpg);
+    background-size: cover;
+  }
+
+  .front2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    color: #000;
+    background-image: url(school.jpg);
+    background-size: cover;
+  }
+
+  .front3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    color: #000;
+    background-image: url(night.jpg);
+    background-size: cover;
+  }
+
+  .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #fafafa;
+    color: #333;
+    text-align: center;
+    transform: rotateY(180deg);
+    background-color:rgb(255, 246, 199);
+  }
+
+  .title{
+    font-family: 'zilla slab', sans-serif;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+.back p{
+    font-family: 'zilla slab', sans-serif;
+    padding: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(94, 95, 91);
+  }
+
